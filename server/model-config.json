@@ -14,22 +14,35 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "temp",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "temp",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "temp",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "temp",
     "public": false
+  },
+  "Post": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Category": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Author": {
+    "dataSource": "db",
+    "public": true
   }
 }
