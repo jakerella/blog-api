@@ -11,16 +11,16 @@
       "xml": false
     },
     "json": {
-      "strict": false,
+      "strict": true,
       "limit": "100kb"
     },
     "urlencoded": {
       "extended": true,
       "limit": "100kb"
     },
-    "cors": false,
+    "cors": true,
     "errorHandler": {
-      "disableStackTrace": false
+      "disableStackTrace": true
     }
   },
   "legacyExplorer": false
