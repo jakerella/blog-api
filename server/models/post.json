@@ -21,7 +21,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+      "category": {
+        "type": "belongsTo",
+        "model": "Category"
+    },
+    "author": {
+      "type": "belongsTo",
+      "model": "Author"
+    }
+  },
   "acls": [
     {
       "accessType": "*",
