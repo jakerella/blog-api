@@ -1,7 +1,7 @@
 module.exorts = {
   'restApiRoot': '/api',
-  'host': process.env.TIY_BLOG_HOST || '0.0.0.0',
-  'port': process.env.TIY_BLOG_PORT || 3000,
+  'host': process.env.BLOG_HOST || '0.0.0.0',
+  'port': process.env.BLOG_PORT || 3000,
   'remoting': {
     'context': {
       'enableHttpContext': false

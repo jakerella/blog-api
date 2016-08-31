@@ -2,10 +2,10 @@ module.exports = {
   'db': {
     'name': 'db',
     'connector': 'mongodb',
-    'host': 'ds023398.mlab.com',
-    'port': 23398,
-    'database': 'tiy-blog',
-    'username': 'tiy-blog-api',
-    'password': process.env.TIY_BLOG_PASS || ''
+    'host': process.env.BLOG_DB_HOST || null,
+    'port': process.env.BLOG_DB_PORT || 23398,
+    'database': process.env.BLOG_DB_NAME || null,
+    'username': process.env.BLOG_DB_USER || 'admin',
+    'password': process.env.BLOG_DB_PASS || '*****'
   }
 };
